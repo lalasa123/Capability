@@ -52,7 +52,7 @@ handleSubmit=(e)=>{
     uName:this.state.uName,
     Password:this.state.Password
   }
-  alert("hello")
+ // alert("hello")
 //   axios.post(`http://127.0.0.1:8000/adminlog/api-auth/userlogin/`, { user })
 //       .then(res => {
 //           alert("hi")
