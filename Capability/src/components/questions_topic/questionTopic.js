@@ -268,7 +268,7 @@ class QuestionTopic extends Component {
                     </label>
                   </td>
                   <td><button type="button" id="qtopicbutton" className="btn btn-primary" value="save" onClick={() => { this.handleSaveData() }}>Save</button>
-                  <button type="button" id="qtopicbutton" className="btn btn-danger" value="cancel" onClick={() => { this.handleCancelData() }}>Cancel</button>
+                  <button type="button" id="qtopicbutton" className="btn btn-warning" value="cancel" onClick={() => { this.handleCancelData() }}>Cancel</button>
                   </td>
                 </tr>
                 {tblTopicData}
