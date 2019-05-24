@@ -8,7 +8,7 @@ class Menu extends Component {
         document.body.style = 'background: #e9ecef;';
     }
     handleLogout(){
-        alert("bye");
+        //alert("bye");
         // localStorage.removeItem('isLoggedIn');
         //document.body.addClass('bodyStyle');
         // document.body.classList.add('bodyStyle');
