@@ -1,0 +1,5 @@
+[
+    {"name":"MySql","acronym":"SQL","activeStatus":true},
+    {"name":"Spring","acronym":"SP","activeStatus":false},
+    {"name":"React Js","acronym":"RJS","activeStatus":true}
+    ]

@@ -1,0 +1,5 @@
+[
+    {"name":"Single","acronym":"SN","activeStatus":true},
+    {"name":"Multiple","acronym":"MP","activeStatus":false},
+    {"name":"Query","acronym":"Qr","activeStatus":true}
+    ]

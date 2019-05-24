@@ -1,0 +1,38 @@
+{
+  "name": "capabilityapp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootbox": "^5.1.2",
+    "bootstrap": "^4.2.1",
+    "circular-json": "^0.5.9",
+    "jquery": "^3.3.1",
+    "material-ui-icons": "^1.0.0-beta.36",
+    "node-sass-chokidar": "^1.3.4",
+    "react": "^16.8.1",
+    "react-bulma-components": "^2.3.0",
+    "react-data-grid": "^5.0.5",
+    "react-dom": "^16.8.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "build-css": "node-sass-chokidar --include-path ./src/scss --include-path ./node_modules src/scss/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar --include-path ./src/scss --include-path ./node_modules src/scss/ -o src/ --watch --recursive"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+    
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

@@ -1,0 +1,111 @@
+#tblPage{
+    border-collapse: separate;
+    border-spacing: 150px 0;
+    margin-top:20px;
+    }
+    #tblQpage{
+        margin-top:20px;
+    }
+    .imgUp{
+        margin-left:100px;
+        margin-top: 20px;
+    }
+    .qtbl{
+       
+        border: 1px solid black;
+        border-radius: 7px;
+        background-color: snow;
+        padding: 5px 10px;
+    }
+    .inputfile {
+        width: 0.1px;
+        height: 0.1px;
+        opacity: 0;
+        overflow: hidden;
+        position: absolute;
+        z-index: -1;
+    }
+    .inputfile + label {
+        font-size: 1.25em;
+        font-weight: 700;
+        color: white;
+        background-color: black;
+        display: inline-block;
+    }
+    
+    .inputfile:focus + label,
+    .inputfile + label:hover {
+        background-color :#2c5694;
+    }
+    .inputfile + label {
+        cursor: pointer; /* "hand" cursor */
+    }
+    
+    
+     .ans{
+        margin-left:25px;
+    } 
+    .ans1{
+        margin-top:12px;
+    }
+    .ans2{
+        margin-top:20px;
+    }
+    button:disabled{
+        background-color: #ccc5c5;
+        border:gray;
+        color:black;
+      }
+    img.uploadImg{
+        width:300px;
+        height:200px;
+        margin-left:10px;
+    }
+    #sType{
+        display:none;
+        margin-top:20px;
+    }
+    #qType{
+        display:none;
+    }
+    
+    textarea{
+        margin-left: 100px;
+    }
+    
+div#divbtn{
+    float: right;
+    margin-right: 180px;
+}
+#qCancel{
+    margin-top:300px;
+    margin-left:1000px;
+}
+div#divbtn button{
+margin-right:16px;
+width:100px;
+} 
+.optionTbl{
+    margin-left:100px;
+}
+td.options{
+    display: flex;
+    width:700px;
+    text-overflow: ellipsis;
+}
+.optLbl{
+    margin-top:5px;
+}
+tr>input[type=radio] {
+    border: 0px;
+    width: 100%;
+    height: 2em;
+} 
+.align{
+    display:flex;
+    margin-top:20px;
+}
+input[type=checkbox]{
+    width:17px;
+    height:17px;
+}

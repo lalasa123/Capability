@@ -1,0 +1,7 @@
+[
+    {"id":1,"questionName":"what is React?","questionType":"simple","questionComplexity":"Moderate"},
+    {"id":2,"questionName":"what is Angular?","questionType":"complex","questionComplexity":"Moderate"},
+    {"id":3,"questionName":"what is Java?","questionType":"simple","questionComplexity":"Moderate"},
+    {"id":4,"questionName":"what is .Net?","questionType":"complex","questionComplexity":"Moderate"}
+
+    ]
